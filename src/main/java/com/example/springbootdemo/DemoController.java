@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping("/")
     public String demo() {
-        return "Hello from Spring Boot Demo!";
+        return "Hello from Spring Boot Demo application!";
     }
 }
